@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.container{
+  margin: auto;
+  width: 60%;
+  color: rgb(255,255,255);;
+  font-size: 25px;
+}
+
+header{
+  border-bottom: 2px solid white;
+}
+
+nav {
+  margin-top: 15px;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+.logo{
+  width: 100px;
+  vertical-align: middle;
+  margin: 15px 0px;
+}
+
+.unread-count{
+  margin-top: 15px;
+}
+
+#number-unread-count{
+  color: rgb(255,0,0);
+  background-color: darkorange;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.mail-content {
+  margin-top: 15px;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+.single-mail-unread {
+  color: rgb(0,0,0);
+  background-color: rgb(255,255,255);;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.single-mail {
+  background-color: #ccc;
+  color: black;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.mail-object{
+  display: inline-block;
+  color: rgb(0,0,0);
+  font-weight: bold;
+}
+
+.mail-text {
+  color: rgba(0,0,0,0.5);
+}
+ footer {
+   padding: 15px;
+   text-align: center;
+   color: rgb(255,255,255);
+   font-weight: bold;
+ }
